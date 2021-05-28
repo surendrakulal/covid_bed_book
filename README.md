@@ -22,7 +22,7 @@ python manage.py runserver
 
 7.create superuser
 a.python manage.py createsuperuser
-<!-- Username (leave blank to use 'admin'): admin
-Email address: Admin@gmail.com
-Password:Admin@123
-Password (again):Admin@123 -->
+a.Username (leave blank to use 'admin'): admin
+b.Email address: Admin@gmail.com
+c.Password:Admin@123
+d.Password (again):Admin@123
