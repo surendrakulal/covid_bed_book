@@ -10,6 +10,8 @@ import json
 from django.core.exceptions import ObjectDoesNotExist
 from .filters import BedListFilter
 from django_filters.utils import translate_validation
+import requests
+
 
 @api_view(["GET"])
 @csrf_exempt
@@ -26,6 +28,7 @@ def bed_list(request):
 @permission_classes([IsAuthenticated])
 def bed_booking(request):
     payload = json.loads(request.body)
+    
     try:
         bedlist = BedList.objects.create(
             PatientName=payload["PatientName"],
