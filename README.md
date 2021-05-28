@@ -28,10 +28,10 @@ c.Password:Admin@123
 d.Password (again):Admin@123
 
 8.CRUD Method
-a.http://127.0.0.1:8000/bedlists-[Get BedList]
-b.http://127.0.0.1:8000/bookbed-[book bed]
-c.http://127.0.0.1:8000/reschedulebook/3[Reschedule Booking]
-d.http://127.0.0.1:8000/cancelbook/11[cancel booking]
+a.http://127.0.0.1:8000/bedlists            [Get BedList]
+b.http://127.0.0.1:8000/bookbed             [book bed]
+c.http://127.0.0.1:8000/reschedulebook/3    [Reschedule Booking]
+d.http://127.0.0.1:8000/cancelbook/11       [cancel booking]
 
 
 
