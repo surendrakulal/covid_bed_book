@@ -26,3 +26,17 @@ a.Username (leave blank to use 'admin'): admin
 b.Email address: Admin@gmail.com
 c.Password:Admin@123
 d.Password (again):Admin@123
+
+8.CRUD Method
+a.http://127.0.0.1:8000/bedlists-(Get BedList)
+b.http://127.0.0.1:8000/bookbed-(book bed)
+c.http://127.0.0.1:8000/reschedulebook/3(Reschedule Booking)
+d.http://127.0.0.1:8000/cancelbook/11(cancel booking)
+
+
+
+9.based on filtering like patient critical level, pin-code, hospital, time slot.
+a.http://127.0.0.1:8000/bedlists?patient_critical_level=Ward_based_care
+b.http://127.0.0.1:8000/bedlists?Pincode=560076
+c.http://127.0.0.1:8000/bedlists?Hospital=District Hospital
+d.http://127.0.0.1:8000/bedlists?Timeslot=2021-05-28T17:41:39Z
